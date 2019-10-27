@@ -7,7 +7,11 @@ header{
     background-color: gray;
     padding: 1%;
 }
-#h_h1{}
+#h_h1{
+    font-size: xx-large;
+    color: black;
+    font-family: cursive;
+}
 #h_logo{
 	display: flex;
 }
@@ -30,9 +34,16 @@ header{
 }
 .tb_elem{
     flex: 1;
+    border: solid darkgray;
+    font-size: x-large;
+    background-color: silver;
+    padding: 1%;
+}
+.ht_l{
+	text-decoration: none;
 }
 #extra{
-	flex: 6;
+	flex: 2;
 }
 section{background-color: powderblue;}
 .s_top{
@@ -43,7 +54,7 @@ section{background-color: powderblue;}
 	flex: 1;
 	border-radius: 10px;
 }
-#stl_p{color: white;padding: 2%;font-size: larger;font-family: cursive;}
+#stl_p{color: white;padding: 2%;font-size: xx-large;}
 .st_right{
 	flex: 1
 }
@@ -62,13 +73,9 @@ section{background-color: powderblue;}
 }
 #sbr_p{
 }
-#sbr_l{
-	
-color: white;
-	
-font-family: cursive;
-	
-font-size: larger;
+#sbr_l{color: #ea9d9d;
+	font-size: xx-large;
+	text-decoration: none;
 }
 .img{
 	border-left: solid gray 5px;
